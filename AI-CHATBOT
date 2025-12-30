@@ -1,2 +1,318 @@
-An AI College Helpdesk Chatbot that gives 24/7 instant support, automates admin queries, and ensures transparent grievance tracking.”
+Problem Statement
+Dr. Shakuntala Misra National Rehabilitation University (DSMNRU) face multiple challenges related to communication, information accessibility, and student support. Despite having an official website, students, parents, and visitors often struggle to obtain clear and timely information.
+
+1. Information Scattered Across the Website
+Important academic and administrative information such as:
+
+
+Courses and programs
+
+
+Fee structure
+
+
+Admission procedures
+
+
+Placement details
+
+
+Campus facilities is spread across multiple web pages.
+
+
+Users must navigate through several sections to find answers, which is time-consuming                            and confusing.
+
+
+First-year students and parents often fail to locate correct and updated information.
+
+
+
+2. Lack of 24×7 Student Support
+University offices and helpdesks operate only during working hours.
+
+
+Students and parents cannot get answers:
+
+
+Late at night
+
+
+On weekends
+
+
+During holidays or admission rush periods
+
+
+Urgent queries remain unanswered, leading to stress and dissatisfaction.
+
+
+
+3. Repeated Queries to Administration
+Administrative staff repeatedly receive the same questions regarding:
+
+
+Fees and scholarships
+
+
+Admission process
+
+
+Cut-offs and eligibility
+
+
+Contact details and office timings
+
+
+This repetition:
+
+
+Increases workload on staff
+
+
+Delays response time
+
+
+Reduces efficiency of administrative operations
+
+
+
+4. Accessibility Challenges
+DSMNRU promotes inclusive education, especially for Divyang (differently-abled) students.
+
+
+Traditional helpdesks and static websites are not always:
+
+
+Easy to understand
+
+
+Accessible
+
+
+User-friendly for everyone
+
+
+There is a need for a simple, interactive, and accessible digital solution.
+
+
+
+5. No Centralized Digital Helpdesk
+There is no single platform where users can:
+
+
+Ask questions freely
+
+
+Get instant and accurate responses
+
+
+Absence of a centralized digital system results in:
+
+
+Misinformation
+
+
+Delays
+
+
+Poor user experience
+
+
+
+Proposed Solution: DSMNRU AI College Helpdesk Chatbot
+To overcome these challenges, we developed the DSMNRU AI College Helpdesk Chatbot, a smart and interactive web-based assistant designed specifically for DSMNRU.
+
+ Solution Overview 
+The chatbot is a college-specific AI assistant that provides instant, accurate, and verified information related only to DSMNRU.
+ It works as a 24×7 digital helpdesk for students, parents, and visitors.
+
+Key Features Explained 
+
+1. 24×7 Instant Support
+The chatbot is available at all times.
+
+
+Users can ask questions:
+
+
+Day or night
+
+
+On weekends and holidays
+
+
+Eliminates dependency on office timings and manual helpdesks.
+
+
+
+2. College-Specific Knowledge Base
+The chatbot contains a predefined and verified knowledge base.
+
+
+It provides accurate information about:
+
+
+ Courses & Academic Programs
+
+
+ Fee Structure
+
+
+ Admission Process
+
+
+ Campus & Facilities
+
+
+ Placements
+
+
+ Scholarships & Fee Waivers
+
+
+ Anti-Ragging Policy
+
+
+ Contact Information
+
+
+Ensures reliable and consistent answers.
+
+
+
+3. Smart Question Matching System
+Uses keyword-based logic to understand user queries.
+
+
+Quickly matches the question with the relevant data in the knowledge base.
+
+
+Delivers fast and accurate responses without delay.
+
+
+
+4. AI Backup Using Gemini API
+If a query is not matched in the local knowledge base:
+
+
+The chatbot sends the query to Gemini AI.
+
+
+A strict system rule ensures:
+
+
+Only DSMNRU-related questions are answered
+
+
+Non-college questions are politely restricted
+
+
+Prevents misuse and maintains focus.
+
+
+
+5. User-Friendly Interface
+Clean and modern chat-based design.
+
+
+Features include:
+
+
+Quick-action buttons
+
+
+Typing indicators
+
+
+Timestamps for messages
+
+
+Easy to use for all age groups.
+
+
+
+6. Accessibility & Inclusivity
+Uses simple and clear language.
+
+
+Structured responses for better understanding.
+
+
+Designed keeping Divyang students in mind.
+
+
+Supports DSMNRU’s vision of inclusive education.
+
+
+
+7. Dark Mode Support
+Improves readability.
+
+
+Reduces eye strain.
+
+
+Enhances overall user comfort.
+
+
+
+How the Chatbot Works
+User enters a query in the chat interface.
+
+
+Chatbot analyzes the question.
+
+
+System checks the local knowledge base.
+
+
+If a match is found → Instant response is shown.
+
+
+If no match is found → Query is sent to Gemini AI.
+
+
+If the query is unrelated → Chatbot politely restricts the response.
+
+
+User receives a clear, accurate, and relevant answer.
+
+
+
+ Impact & Benefits
+✔ Reduces workload on college administration
+
+
+✔ Saves students’ and parents’ time
+
+
+✔ Improves accessibility and inclusivity
+
+
+✔ Provides centralized and reliable information
+
+
+✔ Enhances the digital presence of DSMNRU
+
+
+✔ Improves overall student experience
+
+
+
+ Conclusion
+The DSMNRU AI College Helpdesk Chatbot effectively addresses the problem of delayed, scattered, and inaccessible college information.
+ By providing a smart, inclusive, and 24×7 digital helpdesk, the system ensures better communication, improved accessibility, and enhanced efficiency.
+This solution is:
+Scalable
+
+
+Efficient
+
+
+Student-friendly
+
+
+Aligned with DSMNRU’s mission of inclusive and technology-driven education
+
+
 

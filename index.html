@@ -194,6 +194,25 @@
         border-left: 4px solid #c3e6cb;
     }
 
+    .footer {
+        padding: 8px;
+        text-align: center;
+        font-size: 11px;
+        background: var(--bg);
+        border-top: 1px solid rgba(0,0,0,0.05);
+        color: var(--text);
+    }
+
+    .footer a {
+        color: var(--primary);
+        text-decoration: none;
+        font-weight: 600;
+    }
+
+    .footer a:hover {
+        text-decoration: underline;
+    }
+
     @keyframes fadeIn { 
         from { opacity: 0; transform: translateY(5px); } 
         to { opacity: 1; transform: translateY(0); } 
@@ -217,7 +236,7 @@
 
 <div class="chat-container">
     <div class="chat-header">
-        <span>🎓 DSMNRU Helpdesk</span>
+        <span onclick="openOfficialSite()" style="cursor: pointer;">🎓 DSMNRU Helpdesk</span>
         <div class="header-btns">
             <button onclick="toggleDarkMode()" id="themeBtn">🌙</button>
             <button onclick="clearChat()">🗑️</button>
@@ -245,11 +264,18 @@
         <button onclick="quickAsk('Contact info')">📞 Contact</button>
         <button onclick="quickAsk('Tell me about placement')">💼 Placement</button>
         <button onclick="quickAsk('Scholarship info')">🎓 Scholarships</button>
+        <button onclick="openPYQSite()">📖 Previous Year Q</button>
+        <button onclick="openPYQBot()">➕ PYQ Adder</button>
+        <button onclick="openOfficialSite()">🌐 Official Site</button>
     </div>
 
     <div class="chat-input">
         <input type="text" id="userInput" placeholder="Ask about college..." autocomplete="off">
         <button onclick="sendMessage()">➤</button>
+    </div>
+
+    <div class="footer">
+        Managed by <b>Utkarsh Mishra</b> | 🌐 <a href="https://dsmru.up.nic.in/" target="_blank">Official Site</a>
     </div>
 </div>
 
@@ -311,6 +337,18 @@
     function quickAsk(text) {
         userInput.value = text;
         sendMessage();
+    }
+
+    function openPYQSite() {
+        window.open('https://dsmnru-pyq.netlify.app/', '_blank');
+    }
+
+    function openPYQBot() {
+        window.open('https://t.me/dsmnru_pyq_syll_bot', '_blank');
+    }
+
+    function openOfficialSite() {
+        window.open('https://dsmru.up.nic.in/', '_blank');
     }
 
     // Smart response matcher

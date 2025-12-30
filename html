@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>DSMNRU AI College Helpdesk</title>
+
+<!-- CSS -->
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="chat-container">
+    <div class="chat-header">
+        <span onclick="openOfficialSite()" style="cursor:pointer;">🎓 DSMNRU Helpdesk</span>
+        <div class="header-btns">
+            <button onclick="toggleDarkMode()" id="themeBtn">🌙</button>
+            <button onclick="clearChat()">🗑️</button>
+        </div>
+    </div>
+
+    <div class="chat-box" id="chatBox">
+        <div class="bot-message">
+            <b>Welcome to DSMNRU!</b> 👋<br>
+            I'm your AI assistant for <b>Dr. Shakuntala Misra National Rehabilitation University, Lucknow</b>.<br><br>
+            <b>Ask me about:</b><br>
+            📚 Courses & Programs<br>
+            💰 Fees & Scholarships<br>
+            📝 Admissions<br>
+            🏫 Campus & Facilities<br>
+            💼 Placements
+        </div>
+    </div>
+
+    <div class="quick-btns">
+        <button onclick="quickAsk('What courses does DSMNRU offer?')">📚 Courses</button>
+        <button onclick="quickAsk('What are the fees?')">💰 Fees</button>
+        <button onclick="quickAsk('How do I apply?')">📝 Admission</button>
+        <button onclick="quickAsk('What facilities?')">🏫 Facilities</button>
+        <button onclick="quickAsk('Contact info')">📞 Contact</button>
+        <button onclick="quickAsk('Tell me about placement')">💼 Placement</button>
+        <button onclick="quickAsk('Scholarship info')">🎓 Scholarships</button>
+        <button onclick="openPYQSite()">📖 Previous Year Q</button>
+        <button onclick="openPYQBot()">➕ PYQ Adder</button>
+        <button onclick="openOfficialSite()">🌐 Official Site</button>
+    </div>
+
+    <div class="chat-input">
+        <input type="text" id="userInput" placeholder="Ask about college..." autocomplete="off">
+        <button onclick="sendMessage()">➤</button>
+    </div>
+
+    <div class="footer">
+        Managed by <b>Utkarsh Mishra</b> |
+        <a href="https://dsmru.up.nic.in/" target="_blank">Official Site</a>
+    </div>
+</div>
+
+<!-- JS -->
+<script src="script.js"></script>
+</body>
+</html>

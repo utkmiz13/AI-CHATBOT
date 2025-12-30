@@ -1,0 +1,124 @@
+:root {
+    --primary: #0d47a1;
+    --secondary: #90caf9;
+    --bg: #f0f4fb;
+    --text: #333;
+    --card: #ffffff;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #a1c4fd, #c2e9fb);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.dark-mode {
+    --bg: #1a1a1a;
+    --text: #f0f0f0;
+    --card: #2d2d2d;
+    --primary: #1565c0;
+    background: #121212;
+}
+
+.chat-container {
+    width: 480px;
+    height: 90vh;
+    background: var(--card);
+    border-radius: 20px;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.3);
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.chat-header {
+    background: var(--primary);
+    color: white;
+    padding: 15px;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-btns button {
+    background: rgba(255,255,255,0.2);
+    border: none;
+    color: white;
+    padding: 6px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.chat-box {
+    flex-grow: 1;
+    padding: 15px;
+    overflow-y: auto;
+    background: var(--bg);
+}
+
+.bot-message, .user-message {
+    padding: 12px 16px;
+    border-radius: 15px;
+    margin-bottom: 10px;
+    max-width: 85%;
+}
+
+.bot-message {
+    background: var(--card);
+}
+
+.user-message {
+    background: var(--primary);
+    color: white;
+    margin-left: auto;
+}
+
+.quick-btns {
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+}
+
+.quick-btns button {
+    background: var(--secondary);
+    border: none;
+    padding: 6px 10px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 11px;
+}
+
+.chat-input {
+    display: flex;
+    padding: 10px;
+    gap: 8px;
+}
+
+.chat-input input {
+    flex: 1;
+    padding: 12px;
+    border-radius: 25px;
+    border: 1px solid #ccc;
+}
+
+.chat-input button {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    border: none;
+    background: var(--primary);
+    color: white;
+    cursor: pointer;
+}
+
+.footer {
+    font-size: 11px;
+    text-align: center;
+    padding: 8px;
+}

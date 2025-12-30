@@ -1,0 +1,9 @@
+/AI-CHATBOT
+│
+├── index.html
+├── style.css
+├── script.js
+│
+└── lang/
+    ├── en.js
+    └── hi.js
